@@ -37,3 +37,9 @@
 * When you're finished submitting batches to Salesforce, close the job. This informs Salesforce that no more batches will be submitted for the job, which, in turn, allows the monitoring page in Salesforce to return more meaningful statistics on the progress of the job.
 * You can check the status of an individual batch by running the following cURL command.
 * Once a batch is Completed, you need to retrieve the batch result to see the status of individual records.
+
+## SOAP login
+`curl https://login.salesforce.com/services/Soap/u/40.0 -H "Content-Type: text/xml; charset=UTF-8" -H "SOAPAction: login" -d @login.txt`
+
+* The Soap/u/ portion of the URI specifies the partner WSDL. You can use Soap/c/ to specify the enterprise WSDL.
+
