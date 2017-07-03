@@ -28,3 +28,6 @@
 * CORS is a W3C recommendation that enables web browsers to request resources from origins other than their own (cross-origin request). For example, using CORS, a JavaScript script at https://www.example.com could request a resource from https://www.salesforce.com.
 
 ## Sending HTTP request with cURL
+* The URI where you send HTTP requests has the following format:
+
+Web_Services_SOAP_endpoint_instance_name/services/async/APIversion/Resource_address
