@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:partner.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<soapenv:Body>
+<loginResponse>
+<result>
+<metadataServerUrl>https://crmsystems-dev-ed.my.salesforce.com/services/Soap/m/40.0/00DF00000008HCg</metadataServerUrl>
+<passwordExpired>false</passwordExpired>
+<sandbox>false</sandbox>
+<serverUrl>https://crmsystems-dev-ed.my.salesforce.com/services/Soap/u/40.0/00DF00000008HCg</serverUrl>
+<sessionId>00DF00000008HCg!AQ0AQBpuz4yOa7mgZ54tkoKCceJpy4KJCyVkuAEFh23K1ifj5T_HcAeSguQnRAy2S.liKwqbnVU_oaO8HYWfH9Xv5ORfCExT</sessionId>
+<userId>005F0000003vMsPIAU</userId>
+<userInfo>
+<accessibilityMode>false</accessibilityMode>
+<chatterExternal>false</chatterExternal>
+<currencySymbol>$</currencySymbol>
+<orgAttachmentFileSizeLimit>5242880</orgAttachmentFileSizeLimit>
+<orgDefaultCurrencyIsoCode>USD</orgDefaultCurrencyIsoCode>
+<orgDefaultCurrencyLocale>en_US</orgDefaultCurrencyLocale>
+<orgDisallowHtmlAttachments>false</orgDisallowHtmlAttachments>
+<orgHasPersonAccounts>false</orgHasPersonAccounts>
+<organizationId>00DF00000008HCgMAM</organizationId><
+organizationMultiCurrency>false</organizationMultiCurrency>
+<organizationName>CRM Systems</organizationName>
+<profileId>00eF0000001AHflIAG</profileId>
+<roleId>00EF00000017qJ7MAI</roleId>
+<sessionSecondsValid>7200
