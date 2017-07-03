@@ -23,3 +23,6 @@
 6. Match the result sets with the original data set to determine which records failed and succeeded, and take appropriate action.
 
 * At any point in this process, you can abort the job. Aborting a job has the effect of preventing any unprocessed batches from being processed. It doesn't undo the effects of batches already processed.
+
+## CORS (Cross-origin resource sharing)
+* CORS is a W3C recommendation that enables web browsers to request resources from origins other than their own (cross-origin request). For example, using CORS, a JavaScript script at https://www.example.com could request a resource from https://www.salesforce.com.
