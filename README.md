@@ -26,3 +26,5 @@
 
 ## CORS (Cross-origin resource sharing)
 * CORS is a W3C recommendation that enables web browsers to request resources from origins other than their own (cross-origin request). For example, using CORS, a JavaScript script at https://www.example.com could request a resource from https://www.salesforce.com.
+
+## Sending HTTP request with cURL
