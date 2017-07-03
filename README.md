@@ -29,5 +29,4 @@
 
 ## Sending HTTP request with cURL
 * The URI where you send HTTP requests has the following format:
-
-Web_Services_SOAP_endpoint_instance_name/services/async/APIversion/Resource_address
+`Web_Services_SOAP_endpoint_instance_name/services/async/APIversion/Resource_address`
