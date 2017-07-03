@@ -32,3 +32,8 @@
 `Web_Services_SOAP_endpoint_instance_name/services/async/APIversion/Resource_address`
 
 * The Bulk API doesn't provide a login operation, so you must use SOAP API to log in.
+* Before you can load data, you first create a job. The job specifies the type of object, such as Contact, that you’re loading and the operation that you’re performing, such as query, queryAll, insert, update, upsert, or delete. A job also grants you some control over the data load process. For example, you can abort a job that is in progress.
+* After creating the job, you’re ready to create a batch of contact records. You send data in batches in separate HTTP POST requests. The URI for each request is similar to the one you used when creating the job, but you append jobId/batch to the URI.
+* When you're finished submitting batches to Salesforce, close the job. This informs Salesforce that no more batches will be submitted for the job, which, in turn, allows the monitoring page in Salesforce to return more meaningful statistics on the progress of the job.
+* You can check the status of an individual batch by running the following cURL command.
+* Once a batch is Completed, you need to retrieve the batch result to see the status of individual records.
