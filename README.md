@@ -30,3 +30,5 @@
 ## Sending HTTP request with cURL
 * The URI where you send HTTP requests has the following format:
 `Web_Services_SOAP_endpoint_instance_name/services/async/APIversion/Resource_address`
+
+* The Bulk API doesn't provide a login operation, so you must use SOAP API to log in.
