@@ -45,4 +45,4 @@
 
 `curl https://instance.salesforce.com/services/async/40.0/job -H "X-SFDC-Session: sessionId" -H "Content-Type: application/xml; charset=UTF-8" -d @job.txt`
 
-`curl https://crmsystems-dev-ed.my.salesforce.com/services/async/40.0/job -H "X-SFDC-Session: 00DF00000008HCg!AQ0AQBpuz4yOa7mgZ54tkoKCceJpy4KJCyVkuAEFh23K1ifj5T_HcAeSguQnRAy2S.liKwqbnVU_oaO8HYWfH9Xv5ORfCExT" -H "Content-Type: application/xml; charset=UTF-8" -d @job.txt`
+`curl https://crmsystems-dev-ed.my.salesforce.com/services/async/40.0/job -H "X-SFDC-Session: sessionId" -H "Content-Type: application/xml; charset=UTF-8" -d @job.txt`
