@@ -46,3 +46,7 @@
 `curl https://instance.salesforce.com/services/async/40.0/job -H "X-SFDC-Session: sessionId" -H "Content-Type: application/xml; charset=UTF-8" -d @job.txt`
 
 `curl https://crmsystems-dev-ed.my.salesforce.com/services/async/40.0/job -H "X-SFDC-Session: sessionId" -H "Content-Type: application/xml; charset=UTF-8" -d @job.txt`
+
+crmsystems-dev-ed.lightning.force.com
+
+`curl https://instance.salesforce.com/services/async/40.0/job -H "X-SFDC-Session: sessionId" -H "Content-Type: application/xml; charset=UTF-8" -d @job.txt`
