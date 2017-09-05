@@ -3,7 +3,6 @@
 ## Which API Should I Use?
 * [Salesforce APIs](https://help.salesforce.com/articleView?id=integrate_what_is_api.htm&language=en_US&type=0)
 * `async` specifies that we are making a Bulk API request.
-*
 
 ## When to use Bulk API
 * Bulk API is based on REST principles and is optimized for loading or deleting large sets of data. You can use it to query, queryAll, insert, update, upsert, or delete many records asynchronously by submitting batches. Salesforce processes batches in the background.
